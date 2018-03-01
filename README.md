@@ -1,4 +1,4 @@
 # SpringBootScalatraScalaUnderTow
-Spring Boot Scalatra UnderTow   
+Spring5 Boot2 Scalatra UnderTow   
 
 
