@@ -1,6 +1,7 @@
 package com.iqmsoft.scala
 
 import java.lang.Long
+import java.util.Optional
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.web.servlet.ServletRegistrationBean
@@ -39,7 +40,7 @@ object Application {
 trait BookingRepository extends JpaRepository[Booking, Long] {
 
   @RestResource()
-  def findById(@Param("id") id: Long): List[Booking]
+  def findById(@Param("id") id: Long): Optional[Booking]
 
 
 }
